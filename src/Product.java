@@ -44,6 +44,6 @@ public class Product {
     }
     @Override
     public String toString() {
-        return String.format("Id: %s,Name: %s", id, name);
+        return String.format("Id: %s,Name: %s,Price: Ksh. %.2f, Quantity: %s", id, name,price,quantity);
     }
 }
